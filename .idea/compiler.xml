@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="NewAllLeoWeb" />
+        <module name="NewAllWeb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="NewAllLeoWeb" target="1.5" />
+      <module name="NewAllWeb" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
