@@ -20,10 +20,10 @@ public class MainClass extends WebDriverSetings {
         assertEquals(pageURL, "https://orders.gudfood.com.ua/auth/login");
         // Далі вводимо логін. Відправляємо дані для авторизації.
         new WebDriverWait(driver, 100);
-        driver.findElement(By.name("form[login]")).sendKeys("Vanzhula-Pavel");
+        driver.findElement(By.name("form[login]")).sendKeys(" Впишіть Ваш Логін ");
         new WebDriverWait(driver, 100);
         // Далі вводимо пароль.
-        driver.findElement(By.name("form[password]")).sendKeys("123");
+        driver.findElement(By.name("form[password]")).sendKeys(" Впишіть Ваш Пароль ");
         new WebDriverWait(driver, 10);
         // Клікаємо кнопку "Увійти" і відправляємо дані для авторизації.
         driver.findElement(new By.ByClassName("btn-block")).click();
